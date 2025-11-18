@@ -63,6 +63,7 @@ ContactBook::ContactBook(QWidget *parent)
         "QTableWidget::item {"
         "    padding: 8px;"
         "    border-bottom: 1px solid #f0f0f0;"
+        "    color: #000000;"
         "}"
         "QTableWidget::item:selected {"
         "    background-color: #4CAF50;"
@@ -79,7 +80,7 @@ ContactBook::ContactBook(QWidget *parent)
         
         // Label styling
         "QLabel {"
-        "    color: #333333;"
+        "    color: #000000;"
         "    font-weight: bold;"
         "    font-size: 12pt;"
         "    padding: 5px;"
@@ -92,7 +93,7 @@ ContactBook::ContactBook(QWidget *parent)
         "    border-radius: 6px;"
         "    padding: 8px 12px;"
         "    font-size: 12pt;"
-        "    color: #333333;"
+        "    color: #000000;"
         "}"
         "QLineEdit:focus {"
         "    border: 2px solid #2196F3;"
